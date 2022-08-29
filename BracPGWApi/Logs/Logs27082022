@@ -1,0 +1,142 @@
+8/27/2022 12:36:38 PM>>>>error exception is  System.NullReferenceException: Object reference not set to an instance of an object.
+   at BracPGWApi.Controllers.CheckoutController.process(CheckoutVm model) in D:\Development\BracPGWApi\BracPGWApi\Controllers\CheckoutController.cs:line 27
+8/27/2022 12:38:25 PM==>>before creating object in bankhosted class
+8/27/2022 12:55:09 PM==>>before creating object in bankhosted class
+8/27/2022 12:55:09 PM==>>excep os System.TypeInitializationException: The type initializer for 'java.security.Provider' threw an exception. ---> System.TypeInitializationException: The type initializer for 'sun.security.util.Debug' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'IKVM.Runtime, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58' or one of its dependencies. The system cannot find the file specified.
+   at java.security.AccessController.doPrivileged(Object , AccessControlContext , CallerID )
+   at java.security.AccessController.doPrivileged(PrivilegedAction action, CallerID )
+   at sun.security.util.Debug..cctor()
+   --- End of inner exception stack trace ---
+   at sun.security.util.Debug.getInstance(String option, String prefix)
+   at java.security.Provider..cctor()
+   --- End of inner exception stack trace ---
+   at java.security.Provider.__<clinit>()
+   at org.bouncycastle.jce.provider.BouncyCastleProvider..cctor()
+8/27/2022 12:55:09 PM==>>error exception is  System.TypeInitializationException: The type initializer for 'org.bouncycastle.jce.provider.BouncyCastleProvider' threw an exception. ---> System.TypeInitializationException: The type initializer for 'java.security.Provider' threw an exception. ---> System.TypeInitializationException: The type initializer for 'sun.security.util.Debug' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'IKVM.Runtime, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58' or one of its dependencies. The system cannot find the file specified.
+   at java.security.AccessController.doPrivileged(Object , AccessControlContext , CallerID )
+   at java.security.AccessController.doPrivileged(PrivilegedAction action, CallerID )
+   at sun.security.util.Debug..cctor()
+   --- End of inner exception stack trace ---
+   at sun.security.util.Debug.getInstance(String option, String prefix)
+   at java.security.Provider..cctor()
+   --- End of inner exception stack trace ---
+   at java.security.Provider.__<clinit>()
+   at org.bouncycastle.jce.provider.BouncyCastleProvider..cctor()
+   --- End of inner exception stack trace ---
+   at org.bouncycastle.jce.provider.BouncyCastleProvider..ctor()
+   at com.fss.plugin.iPayPipe..ctor()
+   at BracPGWApi.Controllers.CheckoutController.process(CheckoutVm model) in D:\Development\BracPGWApi\BracPGWApi\Controllers\CheckoutController.cs:line 34
+8/27/2022 12:55:40 PM==>>before creating object in bankhosted class
+8/27/2022 12:56:11 PM==>>excep os System.TypeInitializationException: The type initializer for 'java.security.Provider' threw an exception. ---> System.TypeInitializationException: The type initializer for 'sun.security.util.Debug' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'IKVM.Runtime, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58' or one of its dependencies. The system cannot find the file specified.
+   at java.security.AccessController.doPrivileged(Object , AccessControlContext , CallerID )
+   at java.security.AccessController.doPrivileged(PrivilegedAction action, CallerID )
+   at sun.security.util.Debug..cctor()
+   --- End of inner exception stack trace ---
+   at sun.security.util.Debug.getInstance(String option, String prefix)
+   at java.security.Provider..cctor()
+   --- End of inner exception stack trace ---
+   at java.security.Provider.__<clinit>()
+   at org.bouncycastle.jce.provider.BouncyCastleProvider..cctor()
+8/27/2022 12:56:11 PM==>>error exception is  System.TypeInitializationException: The type initializer for 'org.bouncycastle.jce.provider.BouncyCastleProvider' threw an exception. ---> System.TypeInitializationException: The type initializer for 'java.security.Provider' threw an exception. ---> System.TypeInitializationException: The type initializer for 'sun.security.util.Debug' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'IKVM.Runtime, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58' or one of its dependencies. The system cannot find the file specified.
+   at java.security.AccessController.doPrivileged(Object , AccessControlContext , CallerID )
+   at java.security.AccessController.doPrivileged(PrivilegedAction action, CallerID )
+   at sun.security.util.Debug..cctor()
+   --- End of inner exception stack trace ---
+   at sun.security.util.Debug.getInstance(String option, String prefix)
+   at java.security.Provider..cctor()
+   --- End of inner exception stack trace ---
+   at java.security.Provider.__<clinit>()
+   at org.bouncycastle.jce.provider.BouncyCastleProvider..cctor()
+   --- End of inner exception stack trace ---
+   at org.bouncycastle.jce.provider.BouncyCastleProvider..ctor()
+   at com.fss.plugin.iPayPipe..ctor()
+   at BracPGWApi.Controllers.CheckoutController.process(CheckoutVm model) in D:\Development\BracPGWApi\BracPGWApi\Controllers\CheckoutController.cs:line 34
+8/27/2022 12:56:17 PM==>>before creating object in bankhosted class
+8/27/2022 12:56:20 PM==>>excep os System.TypeInitializationException: The type initializer for 'java.security.Provider' threw an exception. ---> System.TypeInitializationException: The type initializer for 'sun.security.util.Debug' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'IKVM.Runtime, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58' or one of its dependencies. The system cannot find the file specified.
+   at java.security.AccessController.doPrivileged(Object , AccessControlContext , CallerID )
+   at java.security.AccessController.doPrivileged(PrivilegedAction action, CallerID )
+   at sun.security.util.Debug..cctor()
+   --- End of inner exception stack trace ---
+   at sun.security.util.Debug.getInstance(String option, String prefix)
+   at java.security.Provider..cctor()
+   --- End of inner exception stack trace ---
+   at java.security.Provider.__<clinit>()
+   at org.bouncycastle.jce.provider.BouncyCastleProvider..cctor()
+8/27/2022 12:56:20 PM==>>error exception is  System.TypeInitializationException: The type initializer for 'org.bouncycastle.jce.provider.BouncyCastleProvider' threw an exception. ---> System.TypeInitializationException: The type initializer for 'java.security.Provider' threw an exception. ---> System.TypeInitializationException: The type initializer for 'sun.security.util.Debug' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'IKVM.Runtime, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58' or one of its dependencies. The system cannot find the file specified.
+   at java.security.AccessController.doPrivileged(Object , AccessControlContext , CallerID )
+   at java.security.AccessController.doPrivileged(PrivilegedAction action, CallerID )
+   at sun.security.util.Debug..cctor()
+   --- End of inner exception stack trace ---
+   at sun.security.util.Debug.getInstance(String option, String prefix)
+   at java.security.Provider..cctor()
+   --- End of inner exception stack trace ---
+   at java.security.Provider.__<clinit>()
+   at org.bouncycastle.jce.provider.BouncyCastleProvider..cctor()
+   --- End of inner exception stack trace ---
+   at org.bouncycastle.jce.provider.BouncyCastleProvider..ctor()
+   at com.fss.plugin.iPayPipe..ctor()
+   at BracPGWApi.Controllers.CheckoutController.process(CheckoutVm model) in D:\Development\BracPGWApi\BracPGWApi\Controllers\CheckoutController.cs:line 34
+8/27/2022 12:56:34 PM==>>before creating object in bankhosted class
+8/27/2022 12:59:02 PM==>>before creating object in bankhosted class
+8/27/2022 12:59:09 PM==>>before http bankhosted method
+8/27/2022 12:59:31 PM==>>after http bankhosted method
+8/27/2022 1:02:00 PM==>>before creating object in bankhosted class
+8/27/2022 1:02:00 PM==>>before http bankhosted method
+8/27/2022 1:02:01 PM==>>after http bankhosted method
+8/27/2022 1:10:53 PM==>>before creating object in bankhosted class
+8/27/2022 1:10:54 PM==>>before http bankhosted method
+8/27/2022 1:10:54 PM==>>after http bankhosted method
+8/27/2022 2:02:50 PM==>>before creating object in bankhosted class
+8/27/2022 2:02:51 PM==>>before http bankhosted method
+8/27/2022 2:02:52 PM==>>after http bankhosted method
+8/27/2022 2:04:02 PM==>>before creating object in bankhosted class
+8/27/2022 2:04:02 PM==>>before http bankhosted method
+8/27/2022 2:04:02 PM==>>after http bankhosted method
+8/27/2022 2:05:07 PM==>>before creating object in bankhosted class
+8/27/2022 2:05:08 PM==>>before http bankhosted method
+8/27/2022 2:05:09 PM==>>after http bankhosted method
+8/27/2022 2:06:07 PM==>>before creating object in bankhosted class
+8/27/2022 2:06:07 PM==>>before http bankhosted method
+8/27/2022 2:06:07 PM==>>after http bankhosted method
+8/27/2022 2:11:32 PM==>>before creating object in bankhosted class
+8/27/2022 2:11:32 PM==>>before http bankhosted method
+8/27/2022 2:11:33 PM==>>after http bankhosted method
+8/27/2022 2:12:28 PM==>>before result in bankhosted (result)file
+8/27/2022 2:12:28 PM==>>after result trandata in bankhosted(result) file
+8/27/2022 2:12:28 PM==>>after trandata in bankhosted file--> 
+8/27/2022 2:14:51 PM==>>before result in bankhosted (result)file
+8/27/2022 2:14:51 PM==>>after result trandata in bankhosted(result) file
+8/27/2022 2:14:51 PM==>>after trandata in bankhosted file--> 
+8/27/2022 2:18:00 PM==>>before creating object in bankhosted class
+8/27/2022 2:18:00 PM==>>before http bankhosted method
+8/27/2022 2:18:01 PM==>>after http bankhosted method
+8/27/2022 3:13:10 PM==>>after trandata in bankhosted file
+8/27/2022 3:13:11 PM==>>Trandata of bankhosted is ->ED91AF93A5FC538CF9322A55CA2D41518BAA8A66D73398A66911CFA7FB09DB017765D8D21E1C7B5FC4006032E4E361BC043685FBA5F4E3396BC1DF1E6F4EEFD3EECDBFB178C4E7916B6E827BDFF6589271E6633E5A4F7C5734F37E894D37AFA8060504CADB6690CBC4423D632E9029BCC965F51C614772E7AC435A5B69E152C967AAC86A6F304D615B0DF145DCFDCDF1FA85A79977B92E998A56159200E763411F9517E0FE7A47F620C30E390894A38909F6F847033580A2893C4D9A2EACB950E4CDB024656AC890B2826A7D3FC03C46CF47ECA7D7BB99A561286E278CEBB46890E4E9FF2153BC6B3CB0252E7F02475A37DC9B94CFA4E601C738ECD779EB2A46FE0BABF854A777F60F0D43E4E5E7CAF545C53EF68170B6D1192FB9932357460A9A114F4F82D50A1422783304B86DF833E40C9C544EC4D1341AD43E24880D52BD5F1635D0A59B47C68875B20E3341FB35E8FB0117700AEA14BF1D1E0204FFB4D7DAA8E47912EFE63C81D79B92419F271F
+8/27/2022 3:13:21 PM==>>before result in bankhosted (result)file
+8/27/2022 3:13:24 PM==>>after result trandata in bankhosted(result) file
+8/27/2022 3:13:26 PM==>>after trandata in bankhosted file--> CAPTURED
+8/27/2022 4:18:02 PM==>>after trandata in bankhosted file
+8/27/2022 4:18:02 PM==>>Trandata of bankhosted is ->ED91AF93A5FC538CF9322A55CA2D4151B035C79934153829006CF1029766A6617765D8D21E1C7B5FC4006032E4E361BCB24858083F24BFEE6BC1DF1E6F4EEFD35A803BCBC6A7E0CAB2016354623A9A3E71E6633E5A4F7C5708B75CA7983A6A8037607E350CDCA833C4423D632E9029BCC965F51C614772E7AC435A5B69E152C967AAC86A6F304D615B0DF145DCFDCDF1FA85A79977B92E998A56159200E763411F9517E0FE7A47F620C30E390894A38909F6F847033580A2893C4D9A2EACB950E4CDB024656AC890B2826A7D3FC03C46CF47ECA7D7BB99A561286E278CEBB46824678691F542A16C5C56A74757D0AC818C5C871B8EB0421D85E10C5B37D0AA508E34955BD2C5BC1421A857ED0EA9874120305E8C2F22CFFFD7091A6EED0324BE1B7157BC2FF5C02A22783304B86DF833E40C9C544EC4D1341AD43E24880D52BD5F1635D0A59B47C68875B20E3341FB35E8FB0117700AEA14BF1D1E0204FFB4D7DAA8E47912EFE63C81D79B92419F271F
+8/27/2022 4:18:05 PM==>>before result in bankhosted (result)file
+8/27/2022 4:18:06 PM==>>after result trandata in bankhosted(result) file
+8/27/2022 4:18:06 PM==>>after trandata in bankhosted file--> CAPTURED
+8/27/2022 4:25:50 PM==>>after trandata in bankhosted file
+8/27/2022 4:25:50 PM==>>Trandata of bankhosted is ->ED91AF93A5FC538CF9322A55CA2D4151FC8E70F24B5A05A8EEABE68B12D425987765D8D21E1C7B5FC4006032E4E361BC508114AE2E486DCF6BC1DF1E6F4EEFD3EECDBFB178C4E7911E618751E602035D71E6633E5A4F7C57A41045474A49FC5D4CB00EC7137310CEC4423D632E9029BCC965F51C614772E7AC435A5B69E152C967AAC86A6F304D615B0DF145DCFDCDF1FA85A79977B92E998A56159200E763411F9517E0FE7A47F620C30E390894A38909F6F847033580A2893C4D9A2EACB950E4CDB024656AC890B2826A7D3FC03C46CF47ECA7D7BB99A561286E278CEBB468B9A8BD34B4D9A4319A84DD105057982D7D60105C5912EE06F4B304F8B579F6E3F804A8B839913A7194F20B11E96EB72E25AFAEAEA6CA5155AFA6BB4EFB3F74A032327DCB305BF6D522783304B86DF833E40C9C544EC4D1341AD43E24880D52BD5F1635D0A59B47C68875B20E3341FB35E8FB0117700AEA14BF1D1E0204FFB4D7DAA8E47912EFE63C81D79B92419F271F
+8/27/2022 4:25:50 PM==>>before result in bankhosted (result)file
+8/27/2022 4:25:51 PM==>>after result trandata in bankhosted(result) file
+8/27/2022 4:25:51 PM==>>after trandata in bankhosted file--> CAPTURED
+8/27/2022 4:28:29 PM==>>after trandata in bankhosted file
+8/27/2022 4:28:29 PM==>>Trandata of bankhosted is ->ED91AF93A5FC538CF9322A55CA2D415171100A06898E44DB878542133451EC747765D8D21E1C7B5FC4006032E4E361BCC40C56490243E4EC6BC1DF1E6F4EEFD3EECDBFB178C4E791B2016354623A9A3E71E6633E5A4F7C57480D73DD3E967DCB702F7457658509ADC4423D632E9029BCC965F51C614772E7AC435A5B69E152C967AAC86A6F304D615B0DF145DCFDCDF1FA85A79977B92E998A56159200E763411F9517E0FE7A47F620C30E390894A38909F6F847033580A2893C4D9A2EACB950E4CDB024656AC890B2826A7D3FC03C46CF47ECA7D7BB99A561286E278CEBB4688FD96B7F5CB1D4D6F822CF95117E59782B9C7BF55C59E6B8AB5B59BC573E9C79147EAF3C36172AD00F32B35F7E906BF387A86618F933C28B506D39DC272CF52681B49CD45A43DD1422783304B86DF833E40C9C544EC4D1341AD43E24880D52BD5F1635D0A59B47C68875B20E3341FB35E8FB0117700AEA14BF1D1E0204FFB4D7DAA8E47912EFE63C81D79B92419F271F
+8/27/2022 4:28:30 PM==>>before result in bankhosted (result)file
+8/27/2022 4:28:31 PM==>>after result trandata in bankhosted(result) file
+8/27/2022 4:28:31 PM==>>after trandata in bankhosted file--> CAPTURED
+8/27/2022 5:31:00 PM==>>after trandata in bankhosted file
+8/27/2022 5:31:00 PM==>>Trandata of bankhosted is ->ED91AF93A5FC538CF9322A55CA2D41517EAF74B85507E4E7412F3597460E97D07765D8D21E1C7B5FC4006032E4E361BC168A3A87C995D0DC6BC1DF1E6F4EEFD35A803BCBC6A7E0CA1AAC6374D4490F6771E6633E5A4F7C57D1ED2190BE4C745081015323BF8A0F45C4423D632E9029BCC965F51C614772E7AC435A5B69E152C967AAC86A6F304D615B0DF145DCFDCDF1FA85A79977B92E998A56159200E763411F9517E0FE7A47F620C30E390894A38909F6F847033580A2893C4D9A2EACB950E4CDB024656AC890B2826A7D3FC03C46CF47ECA7D7BB99A561286E278CEBB4682D5C372602163090DC9B5CE2970B1B5FD16131DED12B80CAE5FCF53223FB4F670C38A1D14709AF315334DF9C01AB384425D30D5C2B4DC34AF3037D4B91C0B75D02ADEE6E5180EF5422783304B86DF833E40C9C544EC4D1341AD43E24880D52BD5F1635D0A59B47C68875B20E3341FB35E8FB0117700AEA14BF1D1E0204FFB4D7DAA8E47912EFE63C81D79B92419F271F
+8/27/2022 5:31:01 PM==>>before result in bankhosted (result)file
+8/27/2022 5:31:02 PM==>>after result trandata in bankhosted(result) file
+8/27/2022 5:31:02 PM==>>after trandata in bankhosted file--> CAPTURED
+8/27/2022 5:31:23 PM==>>after trandata in bankhosted file
+8/27/2022 5:31:23 PM==>>Trandata of bankhosted is ->ED91AF93A5FC538CF9322A55CA2D41517EAF74B85507E4E7412F3597460E97D07765D8D21E1C7B5FC4006032E4E361BC168A3A87C995D0DC6BC1DF1E6F4EEFD35A803BCBC6A7E0CA1AAC6374D4490F6771E6633E5A4F7C57D1ED2190BE4C745081015323BF8A0F45C4423D632E9029BCC965F51C614772E7AC435A5B69E152C967AAC86A6F304D615B0DF145DCFDCDF1FA85A79977B92E998A56159200E763411F9517E0FE7A47F620C30E390894A38909F6F847033580A2893C4D9A2EACB950E4CDB024656AC890B2826A7D3FC03C46CF47ECA7D7BB99A561286E278CEBB4682D5C372602163090DC9B5CE2970B1B5FD16131DED12B80CAE5FCF53223FB4F670C38A1D14709AF315334DF9C01AB384425D30D5C2B4DC34AF3037D4B91C0B75D02ADEE6E5180EF5422783304B86DF833E40C9C544EC4D1341AD43E24880D52BD5F1635D0A59B47C68875B20E3341FB35E8FB0117700AEA14BF1D1E0204FFB4D7DAA8E47912EFE63C81D79B92419F271F
+8/27/2022 5:31:23 PM==>>before result in bankhosted (result)file
+8/27/2022 5:31:23 PM==>>after result trandata in bankhosted(result) file
+8/27/2022 5:31:23 PM==>>after trandata in bankhosted file--> CAPTURED

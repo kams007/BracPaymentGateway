@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BracPGWApi", "BracPGWApi\BracPGWApi.csproj", "{708432FA-5213-4C67-9D60-5EF86C9AA9D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{708432FA-5213-4C67-9D60-5EF86C9AA9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708432FA-5213-4C67-9D60-5EF86C9AA9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708432FA-5213-4C67-9D60-5EF86C9AA9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708432FA-5213-4C67-9D60-5EF86C9AA9D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBD4A1AE-CD04-4DBB-A060-3AA97602D769}
+	EndGlobalSection
+EndGlobal

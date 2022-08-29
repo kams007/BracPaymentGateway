@@ -1,0 +1,12 @@
+8/29/2022 9:58:12 AM>>>>before creating object in bankhosted class
+8/29/2022 9:58:13 AM==>>before http bankhosted method
+8/29/2022 9:58:14 AM==>>after http bankhosted method
+8/29/2022 11:08:12 AM==>>before creating object in bankhosted class
+8/29/2022 11:08:12 AM==>>before http bankhosted method
+8/29/2022 11:08:12 AM==>>after http bankhosted method
+8/29/2022 11:09:32 AM==>>before result in bankhosted (result)file
+8/29/2022 11:09:33 AM==>>after result trandata in bankhosted(result) file
+8/29/2022 11:09:33 AM==>>after trandata in bankhosted file--> NOT+CAPTURED
+8/29/2022 11:13:41 AM==>>before result in bankhosted (result)file
+8/29/2022 11:13:41 AM==>>after result trandata in bankhosted(result) file
+8/29/2022 11:13:41 AM==>>after trandata in bankhosted file--> NOT+CAPTURED
