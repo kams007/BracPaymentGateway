@@ -20,7 +20,7 @@ namespace BracPGWApi.Controllers
         {
             try
             {
-                String resourcePath = HttpContext.Current.Request.PhysicalApplicationPath + "/Reference/Credendials/" + ConfigurationManager.AppSettings["CGNFILE"].ToString()+ "/cgn";   // folder location where the resource files present (Want to download from the merchant login portal)
+                String resourcePath = System.Web.Hosting.HostingEnvironment.MapPath("~/Reference/Credendials/" + ConfigurationManager.AppSettings["CGNFILE"].ToString()+ "/cgn");   // folder location where the resource files present (Want to download from the merchant login portal)
                 String aliasName = ConfigurationManager.AppSettings["AliasName"].ToString();      // Terminal Alias name (Want to get from the merchant portal)
                 String currency = ConfigurationManager.AppSettings["Currency"].ToString();    // Oman Currency
                 String language = ConfigurationManager.AppSettings["Language"].ToString();    // Language it should be ENG
