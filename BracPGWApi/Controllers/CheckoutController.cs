@@ -14,12 +14,13 @@ namespace BracPGWApi.Controllers
 {
     public class CheckoutController : ApiController
     {
+
         [HttpPost]
         public IHttpActionResult Process(CheckoutVm model)
         {
             try
             {
-                String resourcePath = ConfigurationManager.AppSettings["CGNFILE"].ToString();   // folder location where the resource files present (Want to download from the merchant login portal)
+                String resourcePath = HttpContext.Current.Request.PhysicalApplicationPath + "/Reference/Credendials/" + ConfigurationManager.AppSettings["CGNFILE"].ToString()+ "/cgn";   // folder location where the resource files present (Want to download from the merchant login portal)
                 String aliasName = ConfigurationManager.AppSettings["AliasName"].ToString();      // Terminal Alias name (Want to get from the merchant portal)
                 String currency = ConfigurationManager.AppSettings["Currency"].ToString();    // Oman Currency
                 String language = ConfigurationManager.AppSettings["Language"].ToString();    // Language it should be ENG

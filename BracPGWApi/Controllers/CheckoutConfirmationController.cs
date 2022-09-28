@@ -23,7 +23,7 @@ namespace BracPGWApi.Controllers
         {
             try
             {
-                String resourcePath = ConfigurationManager.AppSettings["CGNFILE"].ToString();   // folder location where the resource files present (Want to download from the merchant login portal)
+                String resourcePath = HttpContext.Current.Request.PhysicalApplicationPath+ "/Reference/Credendials/"+ ConfigurationManager.AppSettings["CGNFILE"].ToString() + "/cgn";   // folder location where the resource files present (Want to download from the merchant login portal)
                 String aliasName = ConfigurationManager.AppSettings["AliasName"].ToString();    // Terminal Alias name (Want to get from the merchant portal)
 
                 var allUrlKeyValues = ControllerContext.Request.GetQueryNameValuePairs();
