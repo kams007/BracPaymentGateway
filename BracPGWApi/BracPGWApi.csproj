@@ -266,6 +266,12 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="Reference\ipaypipe.dll.bkp" />
+    <Content Include="Reference\Credendials\300000000003344\cgn\keystore.bin" />
+    <Content Include="Reference\Credendials\300000000003344\cgn\keystore.pooh" />
+    <Content Include="Reference\Credendials\300000000003344\cgn\resource.cgn" />
+    <Content Include="Reference\Credendials\300000000029691\cgn\keystore.bin" />
+    <Content Include="Reference\Credendials\300000000029691\cgn\keystore.pooh" />
+    <Content Include="Reference\Credendials\300000000029691\cgn\resource.cgn" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
